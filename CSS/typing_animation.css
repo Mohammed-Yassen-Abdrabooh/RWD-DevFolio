@@ -1,0 +1,297 @@
+@keyframes typing {
+  0% {
+    content: " D |";
+  }
+
+  1.3% {
+    content: " De |";
+  }
+
+  2.6% {
+    content: " Des |";
+  }
+
+  3.9% {
+    content: " Desi |";
+  }
+
+  5.2% {
+    content: " Desig |";
+  }
+
+  6.5% {
+    content: " Design |";
+  }
+
+  7.8% {
+    content: " Designe |";
+  }
+
+  9.1% {
+    content: " Designer |";
+  }
+
+  10.4% {
+    content: " Designe |";
+  }
+
+  11.7% {
+    content: " Design |";
+  }
+
+  13% {
+    content: " Desig |";
+  }
+
+  14.3% {
+    content: " Desi |";
+  }
+
+  15.6% {
+    content: " Des |";
+  }
+
+  16.9% {
+    content: " De |";
+  }
+
+  18.2% {
+    content: " Dev |";
+  }
+
+  19.5% {
+    content: " Deve |";
+  }
+
+  20.8% {
+    content: " Devel |";
+  }
+
+  22.1% {
+    content: " Develo |";
+  }
+
+  23.4% {
+    content: " Develop |";
+  }
+
+  24.7% {
+    content: " Develope |";
+  }
+
+  26% {
+    content: " Developer |";
+  }
+
+  27.3% {
+    content: " Develope |";
+  }
+
+  28.6% {
+    content: " Develop |";
+  }
+
+  29.9% {
+    content: " Develo |";
+  }
+
+  31.2% {
+    content: " Devel |";
+  }
+
+  32.5% {
+    content: " Deve |";
+  }
+
+  33.8% {
+    content: " Dev |";
+  }
+
+  35.1% {
+    content: " De |";
+  }
+
+  36.4% {
+    content: " D |";
+  }
+
+  37.7% {
+    content: "  |";
+  }
+
+  39% {
+    content: " F |";
+  }
+
+  40.3% {
+    content: " Fr |";
+  }
+
+  41.6% {
+    content: " Fre |";
+  }
+
+  42.9% {
+    content: " Free |";
+  }
+
+  44.2% {
+    content: " Freel |";
+  }
+
+  45.5% {
+    content: " Freela |";
+  }
+
+  46.8% {
+    content: " Freelan |";
+  }
+
+  48.1% {
+    content: " Freelanc |";
+  }
+
+  49.4% {
+    content: " Freelance |";
+  }
+
+  50.7% {
+    content: " Freelancer |";
+  }
+
+  52% {
+    content: " Freelance |";
+  }
+
+  53.3% {
+    content: " Freelanc |";
+  }
+
+  54.6% {
+    content: " Freelan |";
+  }
+
+  55.9% {
+    content: " Freela |";
+  }
+
+  57.2% {
+    content: " Freel |";
+  }
+
+  58.5% {
+    content: " Free |";
+  }
+
+  59.8% {
+    content: " Fre |";
+  }
+
+  61.1% {
+    content: " Fr |";
+  }
+
+  62.4% {
+    content: " F |";
+  }
+
+  63.7% {
+    content: "  |";
+  }
+
+  65% {
+    content: " P |";
+  }
+
+  66.3% {
+    content: " Ph |";
+  }
+
+  67.6% {
+    content: " Pho |";
+  }
+
+  68.9% {
+    content: " Phot |";
+  }
+
+  70.2% {
+    content: " Photo |";
+  }
+
+  71.5% {
+    content: " photog |";
+  }
+
+  72.8% {
+    content: " Photogr |";
+  }
+
+  74.1% {
+    content: " Photogra |";
+  }
+
+  75.4% {
+    content: " Photograp |";
+  }
+
+  76.7% {
+    content: " Photograph |";
+  }
+
+  78% {
+    content: " Photographe |";
+  }
+
+  79.3% {
+    content: " Photographer |";
+  }
+
+  80.6% {
+    content: " Photographe |";
+  }
+
+  81.9% {
+    content: " Photograph |";
+  }
+
+  83.2% {
+    content: " Photograp |";
+  }
+
+  84.5% {
+    content: " Photogra |";
+  }
+
+  85.8% {
+    content: " Photogr |";
+  }
+
+  87.1% {
+    content: " Photog |";
+  }
+
+  88.4% {
+    content: " Photo |";
+  }
+
+  90% {
+    content: " Phot |";
+  }
+
+  92% {
+    content: " Pho |";
+  }
+
+  94% {
+    content: " Ph |";
+  }
+
+  96% {
+    content: " P |";
+  }
+
+  100% {
+    content: "  |";
+  }
+}

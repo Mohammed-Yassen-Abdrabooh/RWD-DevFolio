@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- ======= Font-awesome ======= -->
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <!-- ======= BootStrap ======= -->
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <!-- ======= BootStrap icons======= -->
+  <link rel="stylesheet" href="CSS/bootstrap-icons.min.css">
+  <!-- ======= Main Style ======= -->
+  <link rel="stylesheet" href="CSS/portfolio.css">
+</head>
+
+<body>
+
+  <!-- start navbar -->
+    <nav id="navbar-example2" class="navbar navbar-expand-lg bg-dark z-3 position-fixed top-0 start-0 end-0">
+      <div class="container">
+        <a class="navbar-brand fs-4 fw-normal link-light" href="#home">DevFolio</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link text-uppercase link-light position-relative" href="#home">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light position-relative" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light position-relative" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light position-relative" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light position-relative" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light position-relative" href="#">Drop Down </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light position-relative" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary rounded-2" tabindex="0">
+  <!-- end navbar -->
+  <!-- ======= Start Header Section ======= -->
+  <header>
+    <div class="header-layer py-5">
+      <div class="container py-5 d-flex justify-content-center ">
+        <div class="head-cont row py-5  d-flex justify-content-center">
+          <div class="title text-center">
+            <h1 class="fw-semibold text-uppercase text-light">portfolio details</h1>
+          </div>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb d-flex justify-content-center ">
+              <li class="breadcrumb-item "><a class="text-decoration-none text-light fw-medium"
+                  href="#"><small>Home</small></a></li>
+              <li class="breadcrumb-item text-white-50 active" aria-current="page"> <small class="">Portfolio
+                  Details</small></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="up-page bg-primary d-flex justify-content-center align-items-center">
+      <a href="#"><i class="bi bi-arrow-up "></i></a>
+    </div>
+  </header>
+
+  <!-- ======= End Header Section ======= -->
+
+  <!-- ======= Start Body Section ======= -->
+  <section id="body" class="body">
+    <div class="container">
+      <div class="body-carousel row justify-content-between gx-5">
+        <div id="carouselExampleInterval" class="carousel slide col-lg-8 gx-5" data-bs-ride="carousel">
+          <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0"
+              class="btn-carousel active" aria-current="true" aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" class="btn-carousel"
+              aria-label="Slide 2">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" class="btn-carousel"
+              aria-label="Slide 3">
+            </button>
+          </div>
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <div class="carousel-image ">
+                <img src="images/portfolio-details-1.jpg" class="  mt-5 mb-2" alt="...">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <div class="carousel-image ">
+                <img src="images/portfolio-details-2.jpg" class="  mt-5 mb-2 " alt="...">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <div class="carousel-image ">
+                <img src="images/portfolio-details-3.jpg" class="  mt-5 mb-2 " alt="...">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"><i class="bi bi-chevron-left "></i></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"><i class="bi bi-chevron-right "></i></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="carousel-cont-1 col-lg-4 gx-5  my-5">
+          <div class="card rounded-0 border-0 shadow">
+            <div class="card-body">
+              <h5 class="card-title fw-bold pb-3 border-bottom">Project information</h5>
+              <ul class="list-unstyled py-3">
+                <li><small><b>Category</b>: Web design</small></li>
+                <li><small><b>Client</b>: ASU Company</small></li>
+                <li><small><b>Project date</b>: 01 March, 2020</small></li>
+                <li><small><b>Project URL</b>: <a href="#" class="text-decoration-none link-dark">www.example.com</a></small></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card2-text mt-4">
+            <h5 class="fw-bold">This is an example of portfolio detail</h5>
+            <p><small>Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia
+                quia. Exercitationem
+                repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium
+                nesciunt est omnis
+                tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.</small> </p>
+          </div>
+        </div>
+        <div class="carousel-cont-2 col-md-4">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= End Body Section ======= -->
+</div>
+  <!-- ======= Start Footer ======= -->
+  <footer class=" py-4 bg-primary  text-center ">
+    <p class="text-light d-block"> &copy; Copyright <b>DevFolio.</b> All Rights Reserved</p>
+    <small class="mt-0 text-light d-block"> <b>Designed by</b> <a href="https://www.bootstrapmade.com" target="_blank"
+        class="text-light text-decoration-none">BootstrapMade</a></small>
+  </footer>
+  <!-- ======= End Footer======= -->
+
+
+
+  <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
